@@ -1,2 +1,47 @@
-/* Start 
+/* Start Main Rulez */
+
+body {
+  background-color: #888;
 }
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+/* End Main Rulez */
+
+/* Start Header */
+
+.header .slider {
+    
+}
+
+.header .navbar {
+  background-color: #252f31;
+  color: #fff;
+  overflow: hidden;
+}
+
+.header .navbar h2 {
+  float: left;
+  text-transform: uppercase;
+}
+
+.header .navbar h2 span {
+  color: #2ecc71;
+}
+
+.header .navbar ul {
+  list-style: none;
+  padding-left: 0;
+  overflow: hidden;
+  float: right;
+}
+
+.header .navbar ul li {
+  float: left;
+  padding: 10px;
+}
+
+/* End Header */
