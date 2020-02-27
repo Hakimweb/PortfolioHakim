@@ -14,7 +14,8 @@ body {
 /* Start Header */
 
 .header .slider {
-    
+  background-color: #eee;
+  height: 600px;
 }
 
 .header .navbar {
