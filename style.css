@@ -1,12 +1,16 @@
 /* Start Main Rulez */
 
 body {
-  background-color: #888;
+  height: 2000px;
 }
 
 .container {
   width: 1170px;
   margin: auto;
+}
+
+.clearfix {
+  clear: both;
 }
 
 /* End Main Rulez */
@@ -15,7 +19,7 @@ body {
 
 .header .slider {
   background-color: #eee;
-  height: 600px;
+  height: 60px;
 }
 
 .header .navbar {
@@ -46,3 +50,145 @@ body {
 }
 
 /* End Header */
+
+/*Start Features*/
+.features {
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.features .feat {
+  float: left;
+  width: 33.333333%;
+  height: 150px;
+  background-color: #ddd; /* For Layout Only */
+}
+
+.features .feat h2 {
+  text-transform: uppercase;
+}
+
+/*End Features*/
+
+/* Start About Me */
+
+.flex-container {
+  display: flex;
+  margin-left: 8%; /* vragen aan docent */
+
+  /*Nieuwe functie*/
+}
+
+.about-me {
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.about-me .image {
+  float: left;
+  width: 40%;
+}
+
+.about-me .image img {
+  width: 100%;
+}
+
+.about-me .info {
+  float: right;
+  width: 60%;
+}
+
+.about-me .info .hobbies {
+  overflow: hidden;
+  margin: 50px;
+}
+
+.about-me .info .hobbies > div {
+  float: left;
+  width: 50%;
+  min-height: 100px;
+}
+/* End About Me */
+
+/* Start my Skills */
+
+.container {
+  overflow: hidden;
+}
+
+.my-skills {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.my-skills .skills,
+.my-skills .progress {
+  width: 50%;
+  float: left;
+}
+
+/* End  my Skills */
+
+/* Start Resume */
+.resume {
+  background-color: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* End Resume */
+
+/* Start my Education */
+
+/*.container {
+  overflow: hidden;
+}*/
+
+.my-education {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.my-education .main,
+.my-education .exp {
+  width: 50%;
+  float: left;
+}
+
+/* End  my Education */
+
+/* Start Testimonials */
+.testimonials {
+  background-color: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* End Testimonials */
+
+/* Start Portfolio */
+
+.portfolio {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.portfolio .our-work {
+  overflow: hidden;
+}
+
+.portfolio .our-work > div {
+  float: left;
+  width: 33.333333%;
+  margin-bottom: 30px;
+}
+
+.portfolio .our-work > div {
+  
+ 
+}
+
+/* End Portfolio */
