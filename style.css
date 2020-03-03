@@ -75,7 +75,7 @@ body {
 
 .flex-container {
   display: flex;
-  margin-left: 8%; /* vragen aan docent */
+  margin-left: 6%;  /*vragen aan docent */
 
   /*Nieuwe functie*/
 }
@@ -174,6 +174,7 @@ body {
 .portfolio {
   padding-top: 30px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .portfolio .our-work {
@@ -183,12 +184,26 @@ body {
 .portfolio .our-work > div {
   float: left;
   width: 33.333333%;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
-.portfolio .our-work > div {
-  
- 
+.portfolio .our-work > div img {
+  width: 92%;
+  margin: 10px; 
 }
 
 /* End Portfolio */
+
+/* Start Contact me */
+
+.contact {
+  background-color: #252f31;
+}
+.contact h2 { color: #FFF;}
+
+.contact p { color: #6A6E71;}
+
+
+
+/* End Contact me */
+
